@@ -1,1 +1,3 @@
-const DOMSelectors = {};
+const DOMSelectors = {
+  name: document.getElementById,
+};

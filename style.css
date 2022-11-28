@@ -56,3 +56,9 @@ body,
 #text{
   background-color: aliceblue;
 }
+.button-hover{
+  transform: scale(1.5);
+}
+#form{
+  font-size: 5rem;
+}

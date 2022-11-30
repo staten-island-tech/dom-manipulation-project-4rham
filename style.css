@@ -15,8 +15,8 @@ body,
 }
 #button{
   font-size: 1.5rem;
-  margin-top: 15px;
-  margin-left: 46.25%;
+  margin: auto;
+  display: block;
 }
 #select{
   background-color: rgb(255, 255, 255);
@@ -47,6 +47,7 @@ body,
   width: 1000px;
   height: auto;
   margin: auto;
+  margin-bottom: 15px;
 }
 .section{
   font-size: 5rem;
@@ -54,4 +55,10 @@ body,
 }
 #text{
   background-color: aliceblue;
+}
+.button-hover{
+  transform: scale(1.5);
+}
+#form{
+  font-size: 5rem;
 }

@@ -12,57 +12,37 @@ body,
   font-size: 75px;
   text-align: center;
   color: rgb(174, 216, 255);
-}
-#button{
-  font-size: 1.5rem;
-  margin: auto;
-  display: block;
-}
-#select{
-  background-color: rgb(255, 255, 255);
-}
-#input-1{
-  padding: 10px;
   background-color: aliceblue;
-  border-radius: 0px;
-  text-align: center;
-  width: 1000px;
+  padding: 20px;
+  border-radius: 50px;
+  width: 50%;
   height: auto;
   margin: auto;
-}
-#input-2{
-  padding: 20px 10px 20px 10px;
-  background-color: aliceblue;
-  border-radius: 0px;
-  text-align: center;
-  width: 1000px;
-  height: auto;
-  margin: auto;
-}
-#input-3{
-  padding: 0px 10px 50px 10px;
-  background-color: aliceblue;
-  border-radius: 0px;
-  text-align: center;
-  width: 1000px;
-  height: auto;
-  margin: auto;
-  margin-bottom: 15px;
-}
-.section{
-  font-size: 5rem;
-  margin-top: 15px;
-}
-#text{
-  background-color: aliceblue;
-}
-.button-hover{
-  transform: scale(1.5);
-}
-#form{
-  font-size: 5rem;
 }
 
-#rick{
-  width: 100px;
+#button {
+  background-color: aliceblue;
+  padding: 15px 40px;
+  border: 10px;
+  font-size: 2rem;
+  border-radius: 100px;
+  transition: all 0.2s;
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  
+  text-align: center;
+}
+
+#input {
+  font-size: 5rem;
+  margin: auto;
+  text-align: center;
+}
+
+#form-parent {
+  background-color: rgb(253, 191, 191);
+  padding: 50px;
+  border-radius: 50px;
+  margin-top: 25px;
 }
